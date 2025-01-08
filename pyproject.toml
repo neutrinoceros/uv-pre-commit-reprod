@@ -1,10 +1,7 @@
 [project]
 name = "uv-pre-commit-reprod"
-dynamic = ["version"]
+version = "0.1.0"
 
 [build-system]
 requires = ["setuptools>=61.2"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools.dynamic]
-version = {attr = "uv_pre_commit_reprod.__version__"}
