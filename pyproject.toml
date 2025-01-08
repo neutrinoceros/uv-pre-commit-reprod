@@ -1,6 +1,7 @@
 [project]
 name = "uv-pre-commit-reprod"
 dynamic = ["version"]
+requires-python = ">=3.10"
 
 [build-system]
 requires = ["setuptools>=61.2"]
